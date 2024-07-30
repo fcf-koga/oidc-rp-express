@@ -1,3 +1,12 @@
+## エンドポイント
+
+- GET `/`
+- トップページ
+- レスポンス:HTML
+- GET `/callback`
+- ログイン後のコールバック先
+- レスポンス:JSON
+
 change directory:
 $ cd oidc-rp-express
 
