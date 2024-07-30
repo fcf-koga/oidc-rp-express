@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "start": "nodemon ./bin/www",
+    "lint":"eslint *.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -15,6 +16,9 @@
     "pug": "^3.0.3"
   },
   "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "eslint": "^9.8.0",
+    "globals": "^15.8.0",
     "nodemon": "^3.1.4"
   }
 }
